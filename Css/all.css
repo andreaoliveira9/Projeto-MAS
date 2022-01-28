@@ -1,0 +1,62 @@
+.titulo {
+    font-family: 'Amatic SC';
+}
+
+.background {
+    background-image: url(/Images/background.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.background1 {
+    background-image: url(/Images/animais3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.background2 {
+    background-image: url(/Images/duvidas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 768px;
+}
+
+.background3 {
+    background-image: url(/Images/meses.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: 1500px;
+}
+
+.logo {
+    background-image: url(/Images/logo.png);
+    width: 230px;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+
+.checkbox {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    padding: 10px;
+}
+
+.espaçoFicha {
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.margemFicha {
+    margin-left: 10px;
+}
